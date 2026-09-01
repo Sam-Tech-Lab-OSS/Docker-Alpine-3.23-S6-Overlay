@@ -2,7 +2,7 @@ name: Veille s6-overlay
 
 on:
   schedule:
-    - cron: "0 5 * * 1" # chaque lundi à 05h00 UTC
+    - cron: "30 5 * * 1" # chaque lundi à 05h30 UTC
   workflow_dispatch:
 
 concurrency:
