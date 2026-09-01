@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  IMAGE: ghcr.io/sam-tech-lab-oss/alpine-3.23
+  IMAGE: ghcr.io/sam-tech-lab-oss/alpine-3.23-s6
 
 jobs:
   inventorier:
